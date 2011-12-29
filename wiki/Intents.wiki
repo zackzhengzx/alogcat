@@ -41,6 +41,6 @@ HALF_HOUR
 HOUR
 }}}
 
-==org.jtb.alogcat.intent.SAVE_START==
+==org.jtb.alogcat.intent.SAVE_STOP==
 
 Triggers aLogcat to stop periodically saving log snapshots to /sdcard/alogcat. 

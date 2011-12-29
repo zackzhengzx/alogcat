@@ -1,0 +1,22 @@
+#aLogcat Intent definition
+
+aLogcat accepts the following intents,
+
+==org.jtb.alogcat.intent.START==
+
+This starts the application. The following extras are supported,
+
+===FILTER===
+
+Sets aLogcat's filter value. Value is interpreted as a string if substring filter mode is in effect, or as a regular expression otherwise. Again, the regular expression string value must be Java conforming (it needs to be properly escaped).
+
+===LEVEL===
+
+Sets aLogcat's level. Value can be one of: V, D, I, W, or E.
+
+
+==org.jtb.alogcat.intent.SAVE==
+
+Triggers aLogcat to immediately write a log snapshot to /sdcard/alogcat. This intent accepts the same extras a the START intent, with the same semantics.
+
+

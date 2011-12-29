@@ -1,5 +1,3 @@
-#aLogcat Intent definition
-
 aLogcat accepts the following intents,
 
 ==org.jtb.alogcat.intent.START==

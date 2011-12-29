@@ -21,3 +21,25 @@ Sets aLogcat's level. Value can be one of: V, D, I, W, or E.
 ==org.jtb.alogcat.intent.SAVE==
 
 Triggers aLogcat to immediately write a log snapshot to /sdcard/alogcat. This intent accepts the same extras a the START intent, with the same semantics.
+
+==org.jtb.alogcat.intent.SHARE==
+
+Triggers aLogcat to share the state of the current log, as if menu > share was selected from the application. This intent accepts the same extras a the START intent, with the same semantics.
+
+
+==org.jtb.alogcat.intent.SAVE_START==
+
+Triggers aLogcat to begin periodically saving log snapshots to /sdcard/alogcat. In addition to the extras allows by the START intent, this intent allows,
+
+===FREQUENCY===
+
+The frequency to save log snapshots. Value must be one of,
+
+FIFTEEN_MINUTES
+HALF_HOUR
+HOUR
+
+
+==org.jtb.alogcat.intent.SAVE_START==
+
+Triggers aLogcat to stop periodically saving log snapshots to /sdcard/alogcat. 

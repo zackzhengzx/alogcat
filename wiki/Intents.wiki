@@ -35,10 +35,11 @@ Triggers aLogcat to begin periodically saving log snapshots to /sdcard/alogcat. 
 
 The frequency to save log snapshots. Value must be one of,
 
+{{{
 FIFTEEN_MINUTES
 HALF_HOUR
 HOUR
-
+}}}
 
 ==org.jtb.alogcat.intent.SAVE_START==
 
